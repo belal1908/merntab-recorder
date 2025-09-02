@@ -4,23 +4,29 @@ Assignment #3: Take-Home Assignment
 
 A web application that records the active browser tab’s screen with microphone audio, allows users to preview, download, and upload recordings to a MERN backend.
 
-🚀 Features
+## 📹 Video Demo
+
+Click the image below to watch the app in action:
+
+https://drive.google.com/file/d/19OQw0oEdbrn1fm3M-8DvZQv1aF06fqDl/view?usp=drive_link
+
+✨ Features
 
 Frontend (React)
-	•	Record the current tab (Chrome required) with microphone audio.
-	•	Live timer during recording (max 3 minutes per recording).
-	•	Preview recordings after stopping.
-	•	Download recordings locally.
-	•	Upload recordings to a Node/Express backend.
-	•	View a list of uploaded recordings with title, size, created date, and inline playback.
+	•	🖥 Record the current tab (Chrome required) with microphone audio
+	•	⏱ Live timer during recording (max 3 minutes)
+	•	▶️ Preview recordings after stopping
+	•	💾 Download recordings locally
+	•	☁️ Upload recordings to backend
+	•	📄 View list of uploaded recordings with title, size, created date, and inline playback
 
 Backend (Node + Express + MongoDB)
-	•	REST API Endpoints:
-	•	POST /api/recordings → Upload recording + metadata.
-	•	GET /api/recordings → List recordings with URLs.
-	•	GET /api/recordings/:id → Fetch/play a recording.
-	•	MongoDB Atlas for storing metadata.
-	•	File storage via GridFS (or preferred method).
+	•	📡 API Endpoints:
+	•	POST /api/recordings → Upload recording + metadata
+	•	GET /api/recordings → List recordings with URLs
+	•	GET /api/recordings/:id → Fetch/play a recording
+	•	🗄 MongoDB Atlas for storing metadata
+	•	🗂 File storage via GridFS (or preferred method)
 
 Deployment
 	•	Frontend: Vercel / Netlify
