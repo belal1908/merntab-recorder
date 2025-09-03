@@ -1,4 +1,4 @@
-#MERN Screen Recorder App
+MERN Screen Recorder App
 
 Assignment #3: Take-Home Assignment
 
